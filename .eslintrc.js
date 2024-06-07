@@ -45,5 +45,9 @@ module.exports = {
     ],
     'no-console': 'error',
     'react/prop-types': 0
-  }
+  },
+  'ignorePatterns': [
+    '.eslintrc.js',
+    'app.js'
+  ],
 }
